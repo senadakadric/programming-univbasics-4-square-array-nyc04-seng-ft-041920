@@ -7,7 +7,7 @@ def square_array(array)
     #square_array << array[count] ** 2
     #count += 1
   #end
-  
+
   array.length.times { |index| square_array << array[index] ** 2 }
 
   square_array
